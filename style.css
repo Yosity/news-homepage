@@ -106,6 +106,7 @@ nav {
 .image-container{
     width: 100%;
     margin: auto;
+    max-width: 35rem;
 }
 
 .article {
@@ -198,6 +199,7 @@ hr {
     .image-container{
         grid-column-start: 1;
         grid-column-end:3;
+        max-width: none;
     }
     .article {
         grid-row-start: 2;
