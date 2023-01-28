@@ -99,17 +99,15 @@ nav {
     }
 }
 
-.image-container-mobile img{
+
+.image-container img{
     width: 100%;
 }
-.image-container-mobile {
+.image-container{
     width: 100%;
-    max-width: 40rem;
     margin: auto;
 }
-.image-container-desktop{
-    display: none;
-}
+
 .article {
     margin-bottom: 4rem;
 }
@@ -197,16 +195,9 @@ hr {
         grid-gap: 1.5rem;
         grid-template-columns: 1fr 1fr 1fr;
     }
-    .image-container-mobile{
-        display: none;
-    }
-    .image-container-desktop{
-        display: block;
+    .image-container{
         grid-column-start: 1;
-        grid-column-end: 3;
-    }
-    .image-container-desktop img {
-        width: 100%;
+        grid-column-end:3;
     }
     .article {
         grid-row-start: 2;
